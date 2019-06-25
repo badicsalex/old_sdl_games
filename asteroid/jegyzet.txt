@@ -1,0 +1,35 @@
+SDL_Surface *screen = NULL;
+
+SDL_Init( SDL_INIT_EVERYTHING );
+screen = SDL_SetVideoMode( 800, 500, 32, SDL_HWSURFACE );
+
+
+SDL_GetTicks()
+SDL_Delay()
+
+SDL_Quit();
+
+IMG_Load
+
+void Draw(SDL_Surface* source, int x, int y)
+{
+    SDL_Rect offset;
+    offset.x = x;
+    offset.y = y;
+    SDL_BlitSurface( source, NULL, screen, &offset );
+}
+
+
+SDL_Flip(screen);
+
+SDL_Event event
+while(SDL_PollEvent( &event ))
+
+case SDL_QUIT:
+
+case SDL_KEYDOWN:
+case SDL_KEYUP:
+
+SDLK_UP DOWN LEFT RIGHT
+SDLK_LAST
+SDLK_ESCAPE
