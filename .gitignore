@@ -1,0 +1,4 @@
+*.o
+asteroid/asteroid
+duckhunt/duckhunt
+breakout/breakout

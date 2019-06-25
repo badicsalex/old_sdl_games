@@ -1,6 +1,6 @@
-#include "SDL.h"
-#include "SDL_image.h"
-#include "math.h"
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <math.h>
 #define min(A,B) (((A)>(B))?(B):(A))
 
 inline int rand(int m)
